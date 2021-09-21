@@ -1,6 +1,14 @@
+#nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
+  position: relative;
+  top: 0;
   height: 4rem;
   background: linear-gradient(to right, #424e62, #2d3142, #424e62);
   align-items: center;
@@ -167,7 +175,7 @@
   padding-bottom: 1.2em;
   align-items: center;
   background-color: #2d3142;
-  transform: translate(0, -17em);
+  transform: translate(0, -22em);
   transition: all ease-out 750ms;
   z-index: -1;
 }
