@@ -53,11 +53,6 @@
   animation: fadein 4s;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
@@ -73,9 +68,77 @@
   white-space: nowrap;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(80, end),
-    blink-caret .75s step-end infinite;
+  animation: blink-caret .75s step-end infinite;
   color: white;
   font-size: 18pt;
+}
+
+/* Change home section presentation when width of screen reaches
+   the limit for the h3 text. */
+@media only screen and (max-width: 59em) {
+  .home-background {
+    flex-direction: column;
+  }
+
+  .background-layer-1 {
+    width: 100%;
+    height: 32%;
+    background-color: #2d3142;
+    justify-content: center;
+  }
+
+  .background-layer-2 {
+    width: 0;
+    height: 0;
+    border-top: 26vh solid #2d3142;
+    border-right: 100vw solid transparent;
+    border-bottom: none;
+  }
+
+  .background-layer-3 {
+    width: 100%;
+    height: 38%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-layer-1 h1 {
+    position: relative;
+    left: 0vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 2rem auto; /* Gives that scrolling effect as the typing happens */
+    color: white;
+    font-size: 32pt;
+    animation: fadein 4s;
+  }
+
+  .background-layer-1 h3 {
+    position: relative;
+    left: 0vw;
+    font-size: 16pt;
+  }
+}
+
+/* Change home section title font sizes when width of screen reaches
+   the limit for the h3 text. */
+@media only screen and (max-width: 25.6em) {
+  .background-layer-1 h1 {
+    font-size: 24pt;
+  }
+
+  .background-layer-1 h3 {
+    font-size: 11pt;
+  }
+}
+
+@media only screen and (max-height: 30em) {
+  .background-layer-1 h1 {
+    margin: 0 auto 1rem auto;
+    font-size: 18pt;
+  }
+
+  .background-layer-1 h3 {
+    font-size: 11pt;
+  }
 }
