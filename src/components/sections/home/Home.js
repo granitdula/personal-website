@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import profileImage from '../../../resources/images/me.jpg';
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         </div>
         <div className='background-layer-2'></div>
         <div className='background-layer-3'>
-          <img src='' alt='#'></img> {/* TODO: Add an image here. */}
+          <img src={profileImage} alt='#'></img>
         </div>
       </div>
     </div>
