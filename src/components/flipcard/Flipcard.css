@@ -1,0 +1,13 @@
+.flipcard-container {
+  background-color: white;
+  height: 12rem;
+  min-width: 20rem;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 45em) {
+  .flipcard-container {
+    min-width: 15rem;
+  }
+}
