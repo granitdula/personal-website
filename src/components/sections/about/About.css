@@ -24,6 +24,5 @@
 @media only screen and (max-width: 45em) {
   .flipcards-container {
     grid-template-columns: auto;
-    grid-gap: 3rem;
   }
 }
