@@ -1,0 +1,15 @@
+.achievement-content-container {
+  width: 100%;
+  height: 100%;
+}
+
+.achievement-content-container ul {
+  margin-top: 0.4rem;
+  padding: 0 0.8rem 0 2.2rem;
+}
+
+.achievement-content-container li {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10pt;
+}
