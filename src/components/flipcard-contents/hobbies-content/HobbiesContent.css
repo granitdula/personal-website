@@ -1,0 +1,27 @@
+.hobbies-content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-left: 0.4rem;
+}
+
+.sub-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.3rem 0.6rem 0.6rem 0.6rem;
+}
+
+.sub-content img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.sub-content h5 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}

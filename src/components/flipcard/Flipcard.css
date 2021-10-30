@@ -1,0 +1,80 @@
+.flipcard-container {
+  position: relative;
+  height: 12rem;
+  min-width: 20rem;
+}
+
+.flipcard-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2d3142;
+  height: 12rem;
+  min-width: 20rem;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  backface-visibility: hidden; /* Needed when flipcard face is flipped, to hide contents */
+  transition: all ease-in 250ms;
+}
+
+.flipcard-back {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2d3142;
+  height: 12rem;
+  min-width: 20rem;
+  max-width: 20rem;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  backface-visibility: hidden; /* Needed when flipcard face is flipped, to hide contents */
+  transition: all ease-in 250ms;
+  transform: rotateY(180deg);
+}
+
+.flipcard-front:hover, .flipcard-back:hover {
+  cursor: pointer;
+  background-color: #ef8354;
+  transition: all ease-in 250ms;
+}
+
+.flipcard-front.show-content {
+  transform: rotateY(-180deg);
+  transition: all ease-out 500ms;
+}
+
+.flipcard-back.show-content {
+  padding: 0;
+  transform: rotateY(0deg);
+  transition: all ease-out 500ms;
+}
+
+@media only screen and (max-width: 45em) {
+  .flipcard-container, .flipcard-front, .flipcard-back {
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 14rem;
+  }
+}
+
+.flipcard-container h3 {
+  color: white;
+  font-size: 24pt;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flipcard-container h4 {
+  color: white;
+  font-size: 18pt;
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
