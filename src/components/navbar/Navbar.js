@@ -36,14 +36,14 @@ class Navbar extends React.Component {
               <a href='#' className='nav-link'>Projects</a>
               <a href='#' className='nav-link'>Contact</a>
           </div>
-          <button className='burger-menu' onClick={this.handleBurgerClick}>
+          <div className='burger-menu' onClick={this.handleBurgerClick}>
             <span className={this.state.burgerToggle ? 'burger-line-rotate-top' : 
                             'burger-menu-line'}></span>
             <span className={this.state.burgerToggle ? 'burger-line-invisible' : 
                             'burger-menu-line'}></span>
             <span className={this.state.burgerToggle ? 'burger-line-rotate-bottom' : 
                             'burger-menu-line'}></span>
-          </button>
+          </div>
           <div className={this.state.burgerToggle ? 'navbar-dropdown' : 'navbar-dropdown-off'}>
             <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>About</a>
             <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>Timeline</a>
