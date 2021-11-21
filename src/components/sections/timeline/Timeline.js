@@ -1,5 +1,7 @@
 import React from 'react';
 import './Timeline.css';
+import TimelineGraph from '../../visualisations/timeline-graph/TimelineGraph.js';
+import timelineData from '../../../resources/component-data/timeline-data.json';
 
 class Timeline extends React.Component {
   constructor() {
@@ -8,8 +10,9 @@ class Timeline extends React.Component {
 
   render() {
     return (
-      <div>
-        
+      <div className='timeline-container'>
+        <h1>Timeline</h1>
+        <TimelineGraph timelineData={timelineData}/>
       </div>
     );
   }

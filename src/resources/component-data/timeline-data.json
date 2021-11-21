@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "Example text",
+      "date": "January 01 2000",
+      "category": {
+        "tag": "Project",
+        "colour": "#00ff00"
+      }
+    },
+    {
+      "text": "Example text 2",
+      "date": "February 01 2000",
+      "category": {
+        "tag": "Project2",
+        "colour": "#ff0000"
+      }
+    },
+    {
+      "text": "Some more text to fill in the size of the box.",
+      "date": "March 01 2000",
+      "category": {
+        "tag": "App",
+        "colour": "#0000ff"
+      }
+    }
+  ]
+}
