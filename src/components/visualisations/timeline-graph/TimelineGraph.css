@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 35rem;
+  width: 45rem;
   margin-bottom: 1rem;
 }
 
@@ -22,4 +22,10 @@
   left: calc(50% - 2px);
   width: 4px;
   height: 50%;
+}
+
+@media only screen and (max-width: 38.4em) {
+  .timeline-graph-container {
+    width: 98%;
+  }
 }

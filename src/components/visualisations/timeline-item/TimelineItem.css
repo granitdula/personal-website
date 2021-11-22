@@ -58,6 +58,7 @@
   color: #2d3142;
   font-size: 12pt;
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
 }
 
 .timeline-item-content .tag {
@@ -93,4 +94,22 @@
 .timeline-item-container:nth-child(odd) .timeline-item-content .timeline-node {
   left: auto;
   right: calc(100% + 0.75rem);;
+}
+
+@media only screen and (max-width: 38.4em) {
+  .timeline-item-content .tag {
+    text-align: center;
+    width: calc(100% - 20px);
+  }
+
+  .timeline-item-content time {
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .timeline-item-content p {
+    text-align: center;
+    width: 100%;
+  }
 }
