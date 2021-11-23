@@ -1,6 +1,7 @@
 section.content {
   margin-top: 4em;
   width: 100%;
+  overflow: hidden;
 }
 
 section.content .home {
