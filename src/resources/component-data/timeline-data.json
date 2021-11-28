@@ -1,27 +1,155 @@
 {
   "items": [
     {
-      "text": "Example text",
-      "date": "January 01 2000",
+      "text": "Introduced to Computer Science and wrote my first \"Hello world\" program on a Raspberry Pi. Sparked my first interest in the subject.",
+      "date": "December 01-31 2012",
       "category": {
-        "tag": "Project",
-        "colour": "#00ff00"
+        "tag": "Curiosity",
+        "colour": "#00ccff"
       }
     },
     {
-      "text": "Example text 2",
-      "date": "February 01 2000",
+      "text": "Started my GCSE Computer Science course with a very inspirational teacher. Also started to proactively learn programming in Python in my freetime through Youtube and Codeacademy.",
+      "date": "September 05 2013",
       "category": {
-        "tag": "Project2",
+        "tag": "Learning",
+        "colour": "#00dd00"
+      }
+    },
+    {
+      "text": "Learned about assembly and how a computer runs a program via the Little Man Computer. Also wrote an averaging function in this simulator.",
+      "date": "January 01-31 2014",
+      "category": {
+        "tag": "Learning",
+        "colour": "#00dd00"
+      }
+    },
+    {
+      "text": "Learned Pygame and made 3 games with it.",
+      "date": "July 01-31 2014",
+      "category": {
+        "tag": "Project",
         "colour": "#ff0000"
       }
     },
     {
-      "text": "Some more text to fill in the size of the box. Some more text to fill in the size of the box.",
-      "date": "March 01 2000",
+      "text": "Learned Arduino and built a temperature and light sensor with a custom coded live graph of the data.",
+      "date": "January 03 2015",
       "category": {
-        "tag": "App",
+        "tag": "Project",
+        "colour": "#ff0000"
+      }
+    },
+    {
+      "text": "Built an advanced version of Pong in Pygame for my A-level project. Also wrote a full technical document for it.",
+      "date": "March 01-31 2017",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Learned HTML, CSS and Javascript as well as Git, Github and Microsoft Azure in preparation for a University Assignment.",
+      "date": "September 25 2017",
+      "category": {
+        "tag": "Learning",
+        "colour": "#00dd00"
+      }
+    },
+    {
+      "text": "Built and hosted a website in a team university assignment",
+      "date": "November 01-30 2017",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Learned C# and Unity in order to work as a team to build an AR game for University Assignment.",
+      "date": "April 01-30 2018",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Intrigued by Machine learning as a concept and began researching about how it works and how it's used.",
+      "date": "July 01-31 2018",
+      "category": {
+        "tag": "Curiosity",
+        "colour": "#00ccff"
+      }
+    },
+    {
+      "text": "Worked on a machine learning project and report to predict Premier League match results.",
+      "date": "January 12 2019",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Worked on a Virtual reality team project with the Microsoft Kinect.",
+      "date": "May 01-31 2019",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Learned about some of my favourite topics namely: Computer Graphics, Image Processing and Machine Learning.",
+      "date": "May 01-31 2020",
+      "category": {
+        "tag": "Learning",
+        "colour": "#00dd00"
+      }
+    },
+    {
+      "text": "Completed my Software Engineering internship at FactSet, in which I got a job offer.",
+      "date": "June 22 - August 14 2020",
+      "category": {
+        "tag": "Work",
         "colour": "#0000ff"
+      }
+    },
+    {
+      "text": "Did some very interesting modules about Deep learning and Machine Vision which was very enjoyable and challenging to learn.",
+      "date": "November 01-30 2020",
+      "category": {
+        "tag": "Learning",
+        "colour": "#00dd00"
+      }
+    },
+    {
+      "text": "Did a University VR project on the Oculus Quest 2 with a team.",
+      "date": "December 01-30 2020",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Did a University Natural Language Processing project with a team.",
+      "date": "April 12 2021",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Did my final year Master's Project and Thesis.",
+      "date": "May 04 2021",
+      "category": {
+        "tag": "Assignment",
+        "colour": "#cc00cc"
+      }
+    },
+    {
+      "text": "Worked on and finished a relatively large personal project which was a programming language and IDE.",
+      "date": "July 28 2021",
+      "category": {
+        "tag": "Project",
+        "colour": "#ff0000"
       }
     }
   ]
