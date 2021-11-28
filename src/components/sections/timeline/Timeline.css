@@ -12,5 +12,14 @@
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 42pt;
+  margin-bottom: 1rem;
+}
+
+.timeline-container h3 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 0;
   margin-bottom: 2rem;
 }
