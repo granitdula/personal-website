@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/sections/home/Home';
 import About from './components/sections/about/About';
+import Timeline from './components/sections/timeline/Timeline';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <section className='content'>
         <section className='home'><Home/></section>
         <section className='about'><About/></section>
-        <section className='timeline'></section>
+        <section className='timeline'><Timeline/></section>
         <section className='projects'></section>
         <section className='contact'></section>
       </section>

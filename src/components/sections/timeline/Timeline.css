@@ -1,0 +1,25 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d3142;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+.timeline-container h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 42pt;
+  margin-bottom: 1rem;
+}
+
+.timeline-container h3 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,31 @@
+.timeline-graph-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 45rem;
+  margin-bottom: 3rem;
+}
+
+.timeline-graph-container .timeline-line {
+  background-color: #bfc0c0;
+  content: '';
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 100%;
+  }
+
+.timeline-graph-container .timeline-line-filler {
+  background-color: #ef8354;
+  content: '';
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 50%;
+}
+
+@media only screen and (max-width: 38.4em) {
+  .timeline-graph-container {
+    width: 98%;
+  }
+}
