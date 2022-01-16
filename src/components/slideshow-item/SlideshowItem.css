@@ -1,0 +1,238 @@
+.slideshow-item-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+svg.left-arrow-svg {
+  position: absolute;
+  top: calc(50% - 5.5em);
+  left: calc(50% - 33.5em);
+  margin-top: 0;
+  transform: scale(0.4);
+}
+
+svg.left-arrow-svg path {
+  stroke: #bfc0c0;
+  transform: translateX(0);
+  transition: stroke ease-in-out 250ms;
+  transition: transform ease-in-out 250ms;
+}
+
+svg.right-arrow-svg {
+  position: absolute;
+  top: calc(50% - 5.5em);
+  left: calc(50% + 22.5em);
+  margin-top: 0;
+  transform: scale(0.4);
+}
+
+svg.right-arrow-svg path {
+  stroke: #bfc0c0;
+  transform: translateX(0);
+  transition: stroke ease-in-out 250ms;
+  transition: transform ease-in-out 250ms;
+}
+
+svg.left-arrow-svg:hover path {
+  stroke: #ef8354;
+  transform: translateX(-1.5em);
+}
+
+svg.right-arrow-svg:hover path {
+  stroke: #ef8354;
+  transform: translateX(1.5em);
+}
+
+.slideshow-item-container .slide-number {
+  position: absolute;
+  top: calc(50% + 16em + 0.5em);
+  left: 50%;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  cursor: default;
+}
+
+.slideshow-content {
+  position: relative;
+  top: calc(50% - 16em);
+  left: calc(50% - 25em);
+  width: 50em;
+  height: 32em;
+  background-color: rgba(45, 49, 66, 0.9);
+  border-radius: 1.5rem;
+}
+
+.slideshow-content .content-container {
+  display: flex;
+  width: calc(100% - 3em);
+  height: calc(100% - 1.5em);
+  margin-left: 3em;
+  padding-top: 1.5em;
+}
+
+.slideshow-content .exit-button {
+  position: absolute;
+  right: 0;
+  height: 1.7em;
+  margin: 1.3em 1.5em 0 0;
+}
+
+.exit-button #line-1 {
+  width: 2em;
+  height: 0.5em;
+  background-color: #bfc0c0;
+  transform: translate(0, 0.5em) rotate(-45deg);
+}
+
+.exit-button #line-2 {
+  width: 2em;
+  height: 0.5em;
+  background-color: #bfc0c0;
+  transform: rotate(45deg);
+}
+
+.exit-button:hover {
+  cursor: pointer;
+}
+
+.exit-button:hover #line-1 {
+  background-color: #ef8354;
+}
+
+.exit-button:hover #line-2 {
+  background-color: #ef8354;
+}
+
+.content-container .text-block {
+  width: 50%;
+}
+
+.text-block h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
+}
+
+.text-block p {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15pt;
+  text-align: justify;
+}
+
+.text-block a {
+  display: block;
+  color: blue;
+  font-size: 15pt;
+}
+
+.content-container img {
+  margin: auto;
+  width: 18em;
+  height: 24em;
+  background-color: white;
+}
+
+/* Tablet size */
+@media only screen and (max-width: 59.4em) {
+  .slideshow-content {
+    left: calc(50% - 20em);
+    width: 40em;
+  }
+
+  svg.left-arrow-svg {
+    left: calc(50% - 27.8em);
+    transform: scale(0.3);
+  }
+
+  svg.right-arrow-svg {
+    left: calc(50% + 16.5em);
+    transform: scale(0.3);
+  }
+
+  .content-container .text-block {
+    width: 40%;
+  }
+
+  .text-block p {
+    font-size: 12pt;
+  }
+
+  .text-block a {
+    font-size: 12pt;
+  }
+}
+
+/* Phone size */
+@media only screen and (max-width: 47.1em) {
+  .slideshow-content {
+    left: calc(50% - 7.5em);
+    width: 15em;
+  }
+
+  .slideshow-content .exit-button {
+    margin: 0.7em 0.7em 0 0;
+    transform: scale(0.75);
+  }
+
+  svg.left-arrow-svg {
+    left: calc(50% - 14.7em);
+    transform: scale(0.25);
+  }
+
+  svg.right-arrow-svg {
+    left: calc(50% + 3.7em);
+    transform: scale(0.25);
+  }
+
+  .slideshow-content .content-container {
+    flex-direction: column;
+    align-items: center;
+    width: calc(100%);
+    height: calc(100% - 1.3em);
+    margin-left: 0;
+    padding-top: 1.3em;
+  }
+
+  .content-container .text-block {
+    width: 87%;
+  }
+
+  .text-block h1 {
+    text-align: center;
+    font-size: 32pt;
+    margin-bottom: 0;
+  }
+
+  .text-block p {
+    margin: 0;
+    font-size: 11pt;
+  }
+
+  .text-block a {
+    text-align: center;
+    font-size: 11pt;
+  }
+
+  .content-container img {
+    width: 10em;
+    height: 7.5em;
+  }
+}
+
+/* Galaxy Fold */
+@media only screen and (max-width: 19.9em) {
+  svg.left-arrow-svg {
+    top: calc(50% - 23.5em);
+    left: calc(50% - 7.35em);
+    transform: scale(0.25);
+  }
+
+  svg.right-arrow-svg {
+    top: calc(50% - 23.5em);
+    left: calc(50% - 3.65em);
+    transform: scale(0.25);
+  }
+}
