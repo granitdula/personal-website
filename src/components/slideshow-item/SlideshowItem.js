@@ -1,7 +1,5 @@
 import React from 'react';
 import './SlideshowItem.css';
-import { ReactComponent as RightArrowSvg } from '../../resources/images/section-images/right-arrow.svg';
-import { ReactComponent as LeftArrowSvg } from '../../resources/images/section-images/left-arrow.svg';
 
 class SlideshowItem extends React.Component {
   constructor(props) {
@@ -10,28 +8,27 @@ class SlideshowItem extends React.Component {
 
   render() {
     return (
-      <div className='slideshow-item-container' style={{
-        visibility: this.props.visibilityState,
-        opacity: this.props.visibilityState === 'visible' ? '100%' : '0%',
-        transition: 'opacity ease-in-out 500ms'
+      <div className='slideshow-item-container'>
+        <div className='slideshow-content' style={{
+          opacity: this.props.currSlideIndex === this.props.index + 1 ? '100%' : '0%',
+          transition: this.props.currSlideIndex === this.props.index + 1 ? 'opacity linear 1200ms' : 'opacity linear 300ms',
+          zIndex: this.props.currSlideIndex === this.props.index + 1 ? '1' : '0'
         }}>
-        <div className='slideshow-content'>
           <div className='exit-button' onClick={ this.props.changeVisibilityState }>
             <div id='line-1'></div>
             <div id='line-2'></div>
           </div>
           <div className='content-container'>
             <div className='text-block'>
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. amet, consectetur adipiscing.</p>
-              <a href='#'>Link</a>
+              <h1>{this.props.data.title}</h1>
+              <p>{this.props.data.description}</p>
+              <div className='link-container'>
+                <a href={this.props.data.linkUrl} target='_blank'>{this.props.data.linkText}</a>
+              </div>
             </div>
             <img src='' alt='#'></img>
           </div>
         </div>
-        <LeftArrowSvg className='left-arrow-svg'/>
-        <RightArrowSvg className='right-arrow-svg'/>
-        <div className='slide-number'>1</div>
       </div>
     );
   }

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "Project Title 1",
+      "description": "A long description about the project which describes what it does and a little about how it works.",
+      "linkText": "Github",
+      "linkUrl": "https://github.com/",
+      "imageName": "placeholder"
+    },
+    {
+      "title": "Project Title 2",
+      "description": "A long description about the project which describes what it does and a little about how it works.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://linkedin.com/",
+      "imageName": "placeholder"
+    },
+    {
+      "title": "Project Title 3",
+      "description": "A long description about the project which describes what it does and a little about how it works.",
+      "linkText": "Youtube",
+      "linkUrl": "https://youtube.com/",
+      "imageName": "placeholder"
+    }
+  ]
+}
