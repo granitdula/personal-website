@@ -12,7 +12,8 @@ class SlideshowItem extends React.Component {
         <div className='slideshow-content' style={{
           opacity: this.props.currSlideIndex === this.props.index + 1 ? '100%' : '0%',
           transition: this.props.currSlideIndex === this.props.index + 1 ? 'opacity linear 1200ms' : 'opacity linear 300ms',
-          zIndex: this.props.currSlideIndex === this.props.index + 1 ? '1' : '0'
+          zIndex: this.props.currSlideIndex === this.props.index + 1 ? '1' : '0',
+          height: this.props.currSlideIndex === this.props.index + 1 ? '32em' : '0'
         }}>
           <div className='exit-button' onClick={ this.props.changeVisibilityState }>
             <div id='line-1'></div>

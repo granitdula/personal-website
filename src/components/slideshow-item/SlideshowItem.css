@@ -2,6 +2,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  user-select: none;
 }
 
 .slideshow-content {
@@ -12,6 +13,7 @@
   height: 32em;
   background-color: rgba(45, 49, 66, 0.9);
   border-radius: 1.5rem;
+  overflow: auto;
 }
 
 .slideshow-content .content-container {

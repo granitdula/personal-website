@@ -57,4 +57,5 @@ svg.right-arrow-svg:hover path {
   font-size: 12pt;
   font-weight: bold;
   cursor: default;
+  user-select: none;
 }
