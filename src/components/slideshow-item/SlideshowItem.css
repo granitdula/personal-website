@@ -65,13 +65,15 @@
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0;
+  font-size: 32pt;
 }
 
 .text-block p {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15pt;
-  text-align: justify;
+  text-align: left;
+  word-spacing: 3px;
 }
 
 .text-block a {
@@ -154,13 +156,14 @@
 
   .text-block h1 {
     text-align: center;
-    font-size: 32pt;
-    margin-bottom: 0;
+    font-size: 22pt;
+    margin-bottom: 0.3em;
   }
 
   .text-block p {
     margin: 0;
-    font-size: 11pt;
+    font-size: 10pt;
+    text-align: center;
   }
 
   .text-block .link-container {
@@ -173,8 +176,8 @@
   }
 
   .content-container img {
-    width: 10em;
-    height: 7.5em;
+    width: 7.5em;
+    height: 10em;
   }
 }
 

@@ -44,7 +44,7 @@
     },
     {
       "title": "Football Predictor",
-      "description": "A project where as a team we built and trained many machine learning models on football data, to predict if the home or away team won or it was a draw on the Premier League matchday of 11/01/2020. The models were trained based on feature engineered data from the dataset, taking in to consideration information such as recent form of each team, goals, scores with corresponding teams, whether they are playing home or away etc.",
+      "description": "A project where as a team we built and trained many machine learning models on football data, to predict if the home or away team won or it was a draw on the Premier League matchday of 11/01/2020. Training was based on feature engineered data from the dataset, considering information such as recent form of each team, goals, scores with corresponding teams, whether they are playing home/away etc.",
       "linkText": "LinkedIn",
       "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
       "imageName": "footballPredictor"
