@@ -1,5 +1,6 @@
 import React from 'react';
 import './SlideshowItem.css';
+import IMAGE from './ProjectImagePaths';
 
 class SlideshowItem extends React.Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class SlideshowItem extends React.Component {
                 <a href={this.props.data.linkUrl} target='_blank'>{this.props.data.linkText}</a>
               </div>
             </div>
-            <img src='' alt='#'></img>
+            <img src={IMAGE[this.props.data.imageName]} alt='#'></img>
           </div>
         </div>
       </div>
