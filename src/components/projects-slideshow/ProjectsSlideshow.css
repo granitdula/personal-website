@@ -1,0 +1,61 @@
+.slideshow-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 85%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+}
+
+svg.left-arrow-svg {
+  position: absolute;
+  top: calc(50% - 5.5em);
+  left: calc(50% - 33.5em);
+  margin-top: 0;
+  transform: scale(0.4);
+}
+
+svg.left-arrow-svg path {
+  stroke: #bfc0c0;
+  transform: translateX(0);
+  transition: stroke ease-in-out 250ms;
+  transition: transform ease-in-out 250ms;
+}
+
+svg.right-arrow-svg {
+  position: absolute;
+  top: calc(50% - 5.5em);
+  left: calc(50% + 22.5em);
+  margin-top: 0;
+  transform: scale(0.4);
+}
+
+svg.right-arrow-svg path {
+  stroke: #bfc0c0;
+  transform: translateX(0);
+  transition: stroke ease-in-out 250ms;
+  transition: transform ease-in-out 250ms;
+}
+
+svg.left-arrow-svg:hover path {
+  stroke: #ef8354;
+  transform: translateX(-1.5em);
+}
+
+svg.right-arrow-svg:hover path {
+  stroke: #ef8354;
+  transform: translateX(1.5em);
+}
+
+.slide-number {
+  position: absolute;
+  top: calc(50% + 16em + 0.5em);
+  left: calc(50% - 0.75em);
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  cursor: default;
+  user-select: none;
+}

@@ -23,7 +23,6 @@ section.content .timeline {
 section.content .projects {
   display: block;
   width: 100%;
-  height: 95vh;
 }
 
 section.content .contact {

@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "title": "Pseudo",
+      "description": "This is a custom made interpreted programming language with a built in IDE containing a text editor and output terminal. It supports data types like strings, numbers, booleans and lists. It also supports programming constructs like variable assignment, if statements, for/while loops, functions and arithmetic/logical expressions. There are also a couple of builtin functions like toString and output.",
+      "linkText": "Github",
+      "linkUrl": "https://github.com/granitdula/Pseudo",
+      "imageName": "pseudo"
+    },
+    {
+      "title": "Text Summarizer",
+      "description": "A natural language processing project that takes input text of up to 100 words and tries to summarize it in a small sentence or phrase. This was created, trained and evaluated in a jupyter notebook. The project contains differently trained models based on transformer and attention models with varying hyperparameters.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
+      "imageName": "textSummarizer"
+    },
+    {
+      "title": "Photo2Depth",
+      "description": "Photo2Depth is a Python 3D application that takes a single 2D image of an interior room with simple furniture and tries to produce a 3D scene, positioning that furniture relatively correctly to what it appears to be in the input image. It allows the user to move around the environment and view the 3D generated scene.",
+      "linkText": "Github",
+      "linkUrl": "https://github.com/granitdula/individual-masters-project",
+      "imageName": "photo2depth"
+    },
+    {
+      "title": "VR Crew Ship",
+      "description": "This is a 3D virtual reality game inspired by Among us. It is a multiplayer game where there are multiple players playing as crew members on a ship. The aim of the game is to protect the ship until it arrives to its destination. This is done by performing tasks on the ship which reduce the ships health over time if left un-done. Tasks involve collaborative efforts to complete. The game is supported on both desktop and VR headsets.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
+      "imageName": "vrCrewShip"
+    },
+    {
+      "title": "VR Sports Trainer",
+      "description": "A gamified VR sports trainer app which gets the user to hit targets using varied punching actions as well as blocking against incoming projectiles. The game supports 3 different maps to play on. It requires a Microsoft Kinect and a Microsoft VR headset.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
+      "imageName": "vrSportsTrainer"
+    },
+    {
+      "title": "Reward Rush",
+      "description": "An augmented reality mobile game where the user has to collect items within Great Ormand Street Hospital by aiming their phone's camera at different iconic areas in the hospital. These include painted walls, toys and statues or figures. The user has a limited time and their score shows up on an online leaderboard.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
+      "imageName": "rewardRush"
+    },
+    {
+      "title": "Football Predictor",
+      "description": "A project where as a team we built and trained many machine learning models on football data, to predict if the home or away team won or it was a draw on the Premier League matchday of 11/01/2020. Training was based on feature engineered data from the dataset, considering information such as recent form of each team, goals, scores with corresponding teams, whether they are playing home/away etc.",
+      "linkText": "LinkedIn",
+      "linkUrl": "https://www.linkedin.com/in/granit-dula-9bb02a176/details/projects/",
+      "imageName": "footballPredictor"
+    }
+  ]
+}
