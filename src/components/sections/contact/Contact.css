@@ -10,7 +10,80 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 42pt;
   text-align: center;
-  padding: 1em 0 0.5em 0;
+  padding: 1em 0 1em 0;
+}
+
+.contact-container .contact-info {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 6.5em;
+}
+
+.contact-info .email-section {
+  width: 50%;
+}
+
+.email-section h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  margin-top: 0.75em;
+}
+
+.email-section p {
+  color: #bfc0c0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14pt;
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.email-section .email-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.email-section .email-icon-image {
+  display: block;
+  width: 5em;
+  height: 5em;
+}
+
+.email-section svg:hover {
+  opacity: 0.5;
+}
+
+.contact-info .social-media-section {
+  width: 50%;
+}
+
+.social-media-section h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  margin-top: 0.75em;
+}
+
+.social-media-section .icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}
+
+.icon-container .icon-image {
+  width: 5em;
+  height: 5em;
+  background-color: white;
+}
+
+.icon-container .icon-image:hover {
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 160em) {
