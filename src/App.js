@@ -17,7 +17,7 @@ function App() {
         <section className='projects'><Projects/></section>
         <section className='contact'><Contact/></section>
       </section>
-      <footer></footer>
+      <footer>Granit Dula's Personal Page, 2022</footer>
     </div>
   );
 }
