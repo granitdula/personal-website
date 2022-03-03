@@ -23,6 +23,7 @@
   font-size: 22pt;
   letter-spacing: 0.1rem;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 .navlinks-container {
@@ -107,6 +108,7 @@
   position: relative;
   transition: all ease-in-out 250ms;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .nav-link:hover {
