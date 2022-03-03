@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import * as Scroll from 'react-scroll';
 
 class Navbar extends React.Component {
   constructor() {
@@ -7,7 +8,8 @@ class Navbar extends React.Component {
     
     // pixel width at which it toggles burger off.
     this.NAVBAR_TRIGGER_SIZE = 720;
-    this.state = { burgerToggle: false };
+    this.navbarRef = React.createRef();
+    this.state = { burgerToggle: false, scroller: Scroll.scroller };
   }
 
   handleBurgerClick = () => { this.setState({ burgerToggle: !this.state.burgerToggle }); };
@@ -28,13 +30,36 @@ class Navbar extends React.Component {
   render() {
     return (
       <div id='nav-container'>
-        <nav className='navbar'>
-          <div className='navbar-title'>Granit Dula</div>
+        <nav className='navbar' ref={this.navbarRef}>
+          <div className='navbar-title' onClick={() => {
+            this.toggleBurgerOff();
+            this.state.scroller.scrollTo('home', {
+              duration: 1000,
+              smooth: true,
+              offset: -this.navbarRef.current.clientHeight,
+            })
+          }}>Granit Dula</div>
           <div className='navlinks-container'>
-              <a href='#' className='nav-link'>About</a>
-              <a href='#' className='nav-link'>Timeline</a>
-              <a href='#' className='nav-link'>Projects</a>
-              <a href='#' className='nav-link'>Contact</a>
+              <a className='nav-link' onClick={() => {this.state.scroller.scrollTo('about', {
+                duration: 1000,
+                smooth: true,
+                offset: -this.navbarRef.current.clientHeight,
+              })}}>About</a>
+              <a className='nav-link' onClick={() => {this.state.scroller.scrollTo('timeline', {
+                duration: 1000,
+                smooth: true,
+                offset: -this.navbarRef.current.clientHeight,
+              })}}>Timeline</a>
+              <a className='nav-link' onClick={() => {this.state.scroller.scrollTo('projects', {
+                duration: 1000,
+                smooth: true,
+                offset: -this.navbarRef.current.clientHeight,
+              })}}>Projects</a>
+              <a className='nav-link' onClick={() => {this.state.scroller.scrollTo('contact', {
+                duration: 1000,
+                smooth: true,
+                offset: -this.navbarRef.current.clientHeight,
+              })}}>Contact</a>
           </div>
           <div className='burger-menu' onClick={this.handleBurgerClick}>
             <span className={this.state.burgerToggle ? 'burger-line-rotate-top' : 
@@ -45,10 +70,34 @@ class Navbar extends React.Component {
                             'burger-menu-line'}></span>
           </div>
           <div className={this.state.burgerToggle ? 'navbar-dropdown' : 'navbar-dropdown-off'}>
-            <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>About</a>
-            <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>Timeline</a>
-            <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>Projects</a>
-            <a href='#' className='nav-link' onClick={this.toggleBurgerOff}>Contact</a>
+            <a className='nav-link' onClick={() => {
+              this.toggleBurgerOff();
+              this.state.scroller.scrollTo('about', {
+                duration: 1000,
+                smooth: true,
+              });
+            }}>About</a>
+            <a className='nav-link' onClick={() => {
+              this.toggleBurgerOff();
+              this.state.scroller.scrollTo('timeline', {
+                duration: 1000,
+                smooth: true,
+              });
+            }}>Timeline</a>
+            <a className='nav-link' onClick={() => {
+              this.toggleBurgerOff();
+              this.state.scroller.scrollTo('projects', {
+                duration: 1000,
+                smooth: true,
+              });
+            }}>Projects</a>
+            <a className='nav-link' onClick={() => {
+              this.toggleBurgerOff();
+              this.state.scroller.scrollTo('contact', {
+                duration: 1000,
+                smooth: true,
+              });
+            }}>Contact</a>
           </div>
         </nav>
       </div>
