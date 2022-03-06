@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.c6f931c5.css",
+    "main.js": "/personal-website/static/js/main.12d374bb.js",
+    "static/js/787.8dcba52f.chunk.js": "/personal-website/static/js/787.8dcba52f.chunk.js",
+    "static/media/me.jpg": "/personal-website/static/media/me.795b8a30d68f9d445b48.jpg",
+    "static/media/vr-sports-trainer.jpg": "/personal-website/static/media/vr-sports-trainer.7813179878242be1518e.jpg",
+    "static/media/reward-rush.jpg": "/personal-website/static/media/reward-rush.ba8dc568c1edf2eb31c0.jpg",
+    "static/media/pseudo.png": "/personal-website/static/media/pseudo.9f46c2b092bf29e1978b.png",
+    "static/media/text-summarizer.png": "/personal-website/static/media/text-summarizer.3cab7313ea35b7c595d0.png",
+    "static/media/photo2depth.jpg": "/personal-website/static/media/photo2depth.d1023fd8ed8b28771054.jpg",
+    "static/media/vr-crew-ship.jpg": "/personal-website/static/media/vr-crew-ship.ebbbee7dcfd56f1fd6da.jpg",
+    "static/media/pytorch-icon.png": "/personal-website/static/media/pytorch-icon.c3ba7144dab6ba9d7f98.png",
+    "static/media/football-predictor.png": "/personal-website/static/media/football-predictor.bbab25ba860a32274528.png",
+    "static/media/react-icon.png": "/personal-website/static/media/react-icon.7aa3e7438534a7686f56.png",
+    "static/media/angular-icon.png": "/personal-website/static/media/angular-icon.d3b351f8f4b5c5da65a7.png",
+    "static/media/java-icon.png": "/personal-website/static/media/java-icon.7506ee0b6a3a7de68178.png",
+    "static/media/csharp-icon.png": "/personal-website/static/media/csharp-icon.48195cec3a5af73c77f8.png",
+    "static/media/unity-icon.png": "/personal-website/static/media/unity-icon.b6fedd344f3cf4764084.png",
+    "static/media/github-icon.png": "/personal-website/static/media/github-icon.2d1f9c7160fc8933ea3e.png",
+    "static/media/python-icon.png": "/personal-website/static/media/python-icon.3453437968782f6be8b4.png",
+    "static/media/git-icon.png": "/personal-website/static/media/git-icon.a54d3fa44e02f2f61e69.png",
+    "static/media/github-icon.svg": "/personal-website/static/media/github-icon.1f9d0a33122a9f1656814d81a0035eed.svg",
+    "static/media/project-cloud.svg": "/personal-website/static/media/project-cloud.354e2e48f0cd4f99ff5f2ad5971e775d.svg",
+    "static/media/linkedin-icon.svg": "/personal-website/static/media/linkedin-icon.5464d708615fa28f6a297326c4ecb208.svg",
+    "static/media/instagram-icon.svg": "/personal-website/static/media/instagram-icon.29e62fee17a8b50076635ef195ace4f5.svg",
+    "index.html": "/personal-website/index.html",
+    "static/media/email-icon.svg": "/personal-website/static/media/email-icon.5cc15e82cbc93d0fbd161dce7419541a.svg",
+    "static/media/left-arrow.svg": "/personal-website/static/media/left-arrow.9b18f0c958c92e894c4b4f977d820876.svg",
+    "static/media/right-arrow.svg": "/personal-website/static/media/right-arrow.1e3d18b8277da622edd2caaae24474dc.svg",
+    "main.c6f931c5.css.map": "/personal-website/static/css/main.c6f931c5.css.map",
+    "main.12d374bb.js.map": "/personal-website/static/js/main.12d374bb.js.map",
+    "787.8dcba52f.chunk.js.map": "/personal-website/static/js/787.8dcba52f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f931c5.css",
+    "static/js/main.12d374bb.js"
+  ]
+}
