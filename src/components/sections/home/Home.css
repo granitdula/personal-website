@@ -93,20 +93,9 @@
     height: 25em;
   }
 
-  @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
-
   .home-container h1 {
     top: 7em;
     font-size: 36pt;
-  }
-
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #ef8354; }
   }
 
   .home-container h3 {
@@ -136,19 +125,8 @@
     height: 16em;
   }
 
-  @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
-
   .home-container h1 {
     top: 5em;
-  }
-
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #ef8354; }
   }
 
   .home-container h3 {
