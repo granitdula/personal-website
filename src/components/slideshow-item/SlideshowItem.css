@@ -66,6 +66,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0;
   font-size: 32pt;
+  cursor: default;
 }
 
 .text-block p {
@@ -74,6 +75,7 @@
   font-size: 15pt;
   text-align: left;
   word-spacing: 3px;
+  cursor: default;
 }
 
 .text-block a {
