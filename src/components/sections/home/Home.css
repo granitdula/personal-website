@@ -11,10 +11,8 @@
 }
 
 .background-layer-1 {
-  display: flex;
-  flex-direction: column;
   width: 33.3%;
-  height: 100%;
+  height: 54em;
   background-color: #2d3142;
   justify-content: center;
   z-index: -2;
@@ -23,8 +21,8 @@
 .background-layer-2 {
   width: 0;
   height: 0;
-  border-bottom: 95vh solid #2d3142;
-  border-right: 33.3vw solid transparent;
+  border-bottom: 54em solid #2d3142;
+  border-right: 30em solid transparent;
   z-index: -3;
 }
 
@@ -32,7 +30,7 @@
   display: flex;
   flex-direction: column;
   width: 33.4%;
-  height: 100%;
+  height: 54em;
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -40,10 +38,10 @@
 }
 
 .background-layer-3 img {
-  margin-right: auto;
+  margin-left: auto;
   border-radius: 50%;
-  width: 90%;
-  height: 24rem;
+  width: 40em;
+  height: 40em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -52,12 +50,13 @@
   to   { opacity: 1; }
 }
 
-.background-layer-1 h1 {
-  position: relative;
-  left: 6.5vw;
+.home-container h1 {
+  position: absolute;
+  left: 2.5em;
+  top: 4em;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-size: 36pt;
+  font-size: 56pt;
   animation: fadein 4s;
 }
 
@@ -67,9 +66,10 @@
   50% { border-color: #ef8354; }
 }
 
-.background-layer-1 h3 {
-  position: relative;
-  left: 6.5vw;
+.home-container h3 {
+  position: absolute;
+  left: 5.1em;
+  top: 14em;
   font-family: 'Source Sans Pro', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -78,12 +78,92 @@
   letter-spacing: .15em; /* Adjust as needed */
   animation: blink-caret .75s step-end infinite;
   color: white;
-  font-size: 18pt;
+  font-size: 28pt;
+}
+
+@media only screen and (max-width: 120em) {
+  .background-layer-3 img {
+    margin-right: auto;
+    width: 25em;
+    height: 25em;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .home-container h1 {
+    top: 7em;
+    font-size: 36pt;
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ef8354; }
+  }
+
+  .home-container h3 {
+    top: 20em;
+    font-size: 18pt;
+  }
+}
+
+/* 2K laptop resolution. */
+@media only screen and (max-width: 90em) {
+  .background-layer-1 {
+    height: 100%;
+  }
+
+  .background-layer-2 {
+    border-bottom: 40em solid #2d3142;
+    border-right: 25em solid transparent;
+  }
+
+  .background-layer-3 {
+    width: 33.4%;
+    height: 100%;
+  }
+
+  .background-layer-3 img {
+    width: 16em;
+    height: 16em;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .home-container h1 {
+    top: 5em;
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ef8354; }
+  }
+
+  .home-container h3 {
+    top: 15em;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .home-container h1 {
+    left: 1.5em;
+  }
+
+  .home-container h3 {
+    left: 3.15em;
+  }
 }
 
 /* Change home section presentation when width of screen reaches
    the limit for the h3 text. */
-@media only screen and (max-width: 59em) {
+@media only screen and (max-width: 67.2em) {
   .home-background {
     flex-direction: column;
   }
@@ -91,14 +171,10 @@
   .background-layer-1 {
     width: 100%;
     height: 32%;
-    background-color: #2d3142;
-    justify-content: center;
   }
 
   .background-layer-2 {
-    width: 0;
-    height: 0;
-    border-top: 26vh solid #2d3142;
+    border-top: 18em solid #2d3142;
     border-right: 100vw solid transparent;
     border-bottom: none;
   }
@@ -106,45 +182,49 @@
   .background-layer-3 {
     width: 100%;
     height: 38%;
-    background-color: white;
   }
 
   .background-layer-3 img {
     margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
     height: 14rem;
     width: 14rem;
   }
 
-  .background-layer-1 h1 {
-    position: relative;
-    left: 0vw;
-    font-family: 'Source Sans Pro', sans-serif;
+  .home-container h1 {
+    top: 3em;
+    left: calc(50% - 3em);
     margin: 2rem auto; /* Gives that scrolling effect as the typing happens */
-    color: white;
     font-size: 32pt;
-    animation: fadein 4s;
   }
 
-  .background-layer-1 h3 {
-    position: relative;
-    left: 0vw;
+  .home-container h3 {
+    top: 11em;
+    left: calc(50% - 9em);
     font-size: 16pt;
   }
 }
 
 /* Change home section title font sizes when width of screen reaches
    the limit for the h3 text. */
-@media only screen and (max-width: 25.6em) {
-  .background-layer-1 h1 {
+@media only screen and (max-width: 50.75em) {
+  .background-layer-2 {
+    border-top: 6em solid #2d3142;
+  }
+
+  .home-container h1 {
+    top: 4em;
     font-size: 24pt;
   }
 
-  .background-layer-1 h3 {
+  .home-container h3 {
+    top: 15em;
     font-size: 11pt;
   }
 }
+
+/* @media only screen and (max-width: 40em) {
+  
+} */
 
 @media only screen and (max-height: 30em) {
   .background-layer-1 h1 {
