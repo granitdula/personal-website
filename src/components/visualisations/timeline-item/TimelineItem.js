@@ -1,6 +1,6 @@
 import React from 'react';
 import './TimelineItem.css';
-import { LIGHTGREY, PALEORANGE } from '../../../constants/Colours.js';
+import { LIGHTGREY, PALEORANGE } from '../../../constants/colours.js';
 
 class TimelineItem extends React.Component {
   constructor(props) {
