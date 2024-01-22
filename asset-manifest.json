@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.c6f931c5.css",
-    "main.js": "/personal-website/static/js/main.12d374bb.js",
+    "main.css": "/personal-website/static/css/main.a7401983.css",
+    "main.js": "/personal-website/static/js/main.3ccba463.js",
     "static/js/787.8dcba52f.chunk.js": "/personal-website/static/js/787.8dcba52f.chunk.js",
     "static/media/me.jpg": "/personal-website/static/media/me.795b8a30d68f9d445b48.jpg",
     "static/media/vr-sports-trainer.jpg": "/personal-website/static/media/vr-sports-trainer.7813179878242be1518e.jpg",
@@ -23,17 +23,16 @@
     "static/media/github-icon.svg": "/personal-website/static/media/github-icon.1f9d0a33122a9f1656814d81a0035eed.svg",
     "static/media/project-cloud.svg": "/personal-website/static/media/project-cloud.354e2e48f0cd4f99ff5f2ad5971e775d.svg",
     "static/media/linkedin-icon.svg": "/personal-website/static/media/linkedin-icon.5464d708615fa28f6a297326c4ecb208.svg",
-    "static/media/instagram-icon.svg": "/personal-website/static/media/instagram-icon.29e62fee17a8b50076635ef195ace4f5.svg",
     "index.html": "/personal-website/index.html",
     "static/media/email-icon.svg": "/personal-website/static/media/email-icon.5cc15e82cbc93d0fbd161dce7419541a.svg",
     "static/media/left-arrow.svg": "/personal-website/static/media/left-arrow.9b18f0c958c92e894c4b4f977d820876.svg",
     "static/media/right-arrow.svg": "/personal-website/static/media/right-arrow.1e3d18b8277da622edd2caaae24474dc.svg",
-    "main.c6f931c5.css.map": "/personal-website/static/css/main.c6f931c5.css.map",
-    "main.12d374bb.js.map": "/personal-website/static/js/main.12d374bb.js.map",
+    "main.a7401983.css.map": "/personal-website/static/css/main.a7401983.css.map",
+    "main.3ccba463.js.map": "/personal-website/static/js/main.3ccba463.js.map",
     "787.8dcba52f.chunk.js.map": "/personal-website/static/js/787.8dcba52f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f931c5.css",
-    "static/js/main.12d374bb.js"
+    "static/css/main.a7401983.css",
+    "static/js/main.3ccba463.js"
   ]
 }
