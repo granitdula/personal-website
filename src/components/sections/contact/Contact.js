@@ -17,7 +17,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='social-media-section'>
-          <h2>Social Media</h2>
+          <h2>Profiles</h2>
           <div className='icon-container'>
             <a href='https://github.com/granitdula' target='_blank'><GithubIcon className='icon-image'/></a>
             <a href='https://www.linkedin.com/in/granit-dula-9bb02a176/' target='_blank'>
